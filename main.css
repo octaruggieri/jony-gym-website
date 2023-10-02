@@ -708,6 +708,8 @@ nav{
         font-size: 1.5rem;
     }
 
+    
+
     .section__subheader {
         max-width: 100%;
         font-size: 1rem;
@@ -760,11 +762,13 @@ nav{
 
     .header__content h4 {
         font-size: 0.8rem;
+        margin-top: -2rem;
     }
 
     .header__content h1 {
         font-size: 2rem;
         line-height: 4rem;
+        margin-top: -0.8rem;
     }
 
     .header__content h1 span {
@@ -773,6 +777,7 @@ nav{
 
     .header__content p {
         font-size: 0.9rem;
+        
     }
 
     .header__image::before {
@@ -784,4 +789,10 @@ nav{
     .header__image img {
         max-width: 250px;
     }
+
+    .join__grid{
+        margin-top: -15rem;
+    }
+
+    
 }
