@@ -442,11 +442,13 @@ nav{
 /* ---------------------------- TESTIMONIOS --------------------- */
 .review{
     background-color: var(--primary-color-light);
+    max-width: 100%;
 }
 
 .review__container{
     display: flex;
-    gap: 2rem;
+    gap: 1rem;
+    flex-direction: column;
 }
 
 .review__container > span {
@@ -651,11 +653,135 @@ nav{
         flex-direction: column;
     }
 
+    
+
     .footer__container{
         grid-template-columns: 1fr 150px;
     }
 
     .footer__bar{
         text-align: center;
+    }
+
+
+
+
+    .review__container {
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .review__container > span {
+        font-size: 3rem;
+        text-align: center;
+    }
+
+    .review__content p {
+        max-width: 100%;
+        margin-bottom: 1rem;
+    }
+
+    .review__footer {
+        margin-top: 2rem;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .review__member {
+        flex-direction: column;
+        align-items: center;
+        gap: 0.5rem;
+    }
+
+    .review__nav {
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+    }
+}
+
+
+
+
+@media (max-width: 419px) {
+    .section__header {
+        font-size: 1.5rem;
+    }
+
+    .section__subheader {
+        max-width: 100%;
+        font-size: 1rem;
+        text-align: center;
+    }
+
+    .btn {
+        padding: 0.75rem 1.5rem;
+        font-size: 0.9rem;
+    }
+
+    nav {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .nav_links {
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .nav_links .link {
+        text-align: center;
+    }
+
+
+
+    .header__container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 1rem;
+    }
+
+    .header__container::before {
+        content: 'FITNESS';
+        position: absolute;
+        bottom: 1rem;
+        right: 0;
+        font-size: 4rem;
+        font-weight: 700;
+        line-height: 3.5rem;
+    }
+
+    .header__blur {
+        bottom: 1rem;
+        right: 0;
+    }
+
+    .header__content h4 {
+        font-size: 0.8rem;
+    }
+
+    .header__content h1 {
+        font-size: 2rem;
+        line-height: 4rem;
+    }
+
+    .header__content h1 span {
+        -webkit-text-stroke: 0.5px white;
+    }
+
+    .header__content p {
+        font-size: 0.9rem;
+    }
+
+    .header__image::before {
+        content: 'o';
+        font-size: 15rem;
+        line-height: 9rem;
+    }
+
+    .header__image img {
+        max-width: 250px;
     }
 }
