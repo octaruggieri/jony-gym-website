@@ -5,21 +5,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jony Coach</title>
     <link rel="stylesheet" href="main.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
 </head>
 <body>
     <nav>
         <div class="nav_logo">
-            <a href="#"><img src="images/logo.png" alt=""></a>
+            <a href="#"><img src="images/logo nuevo.png" alt=""></a>
         </div>
         <ul class="nav_links">
             <li class="link"><a href="#">Inicio</a></li>
-            <li class="link"><a href="#">Acerca de</a></li>
+            <li class="link"><a href="#">Nosotros</a></li>
             <li class="link"><a href="#">Entrenamientos</a></li>
             <li class="link"><a href="#">Contacto</a></li>
         </ul>
-        <button class="btn">Comenzar Ahora</button>
+        <button class="btn">Registrarse</button>
     </nav>
-
+    <!-- ------------------------ ENCABEZADO ---------------------- -->
     <header class="section__container header__container">
         <div class="header__content">
             <span class="bg__blur"></span>
@@ -39,14 +40,268 @@
         </div>
     </header>
 
+
+
+        <!-- ------------------- TIPOS DE ENTRENAMIENTOS ------------------ -->
     <section class="section__container explore__container">
         <div class="explore__header">
             <h2 class="section__header">VER ENTRENAMIENTOS</h2>
             <div class="explore__nav">
-                <span></span>
-                <span></span>
+                <span><i class="ri-arrow-left-line"></i></span>
+                <span><i class="ri-arrow-right-line"></i></span>
+            </div>
+        </div>
+        <div class="explore__grid">
+            <div class="explore__card">
+                <span><i class="ri-boxing-fill"></i></span>
+                <h4>Boxeo</h4>
+                <p>
+                    Abrace la esencia de la fuerza mientras profundizamos en sus diversas dimensiones física, mental y emocional.
+                </p>
+                <a href="#">Empezar Ahora<i class="ri-arrow-right-line"></i></a>
+            </div>
+
+            <div class="explore__card">
+                <span><i class="ri-heart-pulse-fill"></i></span>
+                <h4>Cardio</h4>
+                <p>
+                    Abarca una gama de actividades que mejoran la salud, la fuerza,
+             flexibilidad y bienestar general. 
+                </p>
+                <a href="#">Empezar Ahora<i class="ri-arrow-right-line"></i></a>
+            </div>
+
+            <div class="explore__card">
+                <span><i class="ri-run-line"></i></span>
+                <h4>Dietas</h4>
+                <p>
+                    A través de una combinación de rutinas de ejercicios y orientación de expertos, lo capacitaremos para alcanzar sus objetivos.
+                </p>
+                <a href="#">Empezar Ahora<i class="ri-arrow-right-line"></i></a>
+            </div>
+
+            <div class="explore__card">
+                <span><i class="ri-shopping-basket-fill"></i></span>
+                <h4>Ganancia Muscular</h4>
+                <p>
+                    Diseñado para individuos, nuestro programa ofrece un enfoque eficaz para ganar peso de manera sostenible.
+                </p>
+                <a href="#">Empezar Ahora<i class="ri-arrow-right-line"></i></a>
             </div>
         </div>
     </section>
+
+
+    <!-- ------------------------ CLASES QUE SE OBTIENEN ----------------------- -->
+    <section class="section__container class__container">
+        <div class="class__image">
+            <span class="bg__blur"></span>
+            <img src="images/class-1.jpg" alt="class" class="class__img-1">
+            <img src="images/class-2.jpg" alt="class" class="class__img-2">
+        </div>
+        <div class="class__content">
+            <h2 class="section__header">LAS CLASES QUE OBTENDRAS AQUÍ</h2>
+            <p>
+                Dirigida por nuestro equipo de instructores expertos y motivadores, 
+            "La clase que obtendrás aquí" es una sesión de alta energía orientada 
+            a resultados que combina una combinación perfecta de cardio, entrenamiento 
+            de fuerza y ejercicios funcionales. Cada clase está cuidadosamente seleccionada 
+            para mantenerte involucrado y desafiado, asegurando que nunca llegues a un punto 
+            muerto en tus esfuerzos de acondicionamiento físico.
+            </p>
+            <button class="btn">Iniciar</button>
+
+        </div>
+    </section>
+
+
+
+<!-- ----------------------- POR QUE UNIRSE A NOSOTROS --------------- -->
+    <section class="section__container join__container">
+        <h2 class="section__header">POR QUE UNIRSE A NOSOTROS ?</h2>
+        <p class="section__subheader">
+            Nuestra diversa base de miembros crea un ambiente amigable y solidario.
+         ambiente donde puedes hacer amigos y mantenerte motivado.
+        </p>
+        <div class="join__image">
+            <img src="images/FUERZA (1).png" alt="Join">
+            <div class="join__grid">
+                <div class="join__card">
+                    <span><i class="ri-user-star-fill"></i></span>
+                    <div class="join__card__content">
+                        <h4>Personal Trainer</h4>
+                        <p>
+                            Libera tu potencial con nuestros entrenadores personales expertos.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="join__card">
+                    <span><i class="ri-building-line"></i></span>
+                    <div class="join__card__content">
+                        <h4>Buena administracion</h4>
+                        <p>
+                            Gestión de apoyo, para su éxito en el fitness.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="join__card">
+                    <span><i class="ri-vidicon-fill"></i></span>
+                    <div class="join__card__content">
+                        <h4>Clases Grabadas</h4>
+                        <p>
+                            Mejora tu condición física con sesiones de práctica.
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- --------------------------- PLANES ------------------------ -->
+    <section class="section__container price__container">
+        <h2 class="section__header">NUESTROS PLANES</h2>
+        <p class="section__subheader">
+            Nuestro plan de precios viene con varios niveles de membresía, 
+            cada uno de ellos diseñado para satisfacer diferentes preferencias 
+            y aspiraciones de acondicionamiento físico.
+        </p>
+        <div class="price__grid">
+            <div class="price__card">
+                <div class="price__card__content">
+                    <h4>Plan BASICO</h4>
+                    <h3>$15.000</h3>
+                    <p>
+                        <i class="ri-checkbox-circle-line"></i>
+                        Plan de entrenamiento inteligente
+                      </p>
+                      <p>
+                        <i class="ri-checkbox-circle-line"></i>
+                        Entrenamientos en casa
+                      </p>
+                    </div>
+                    <button class="btn price__btn">Comenzar</button>
+                  </div>
+
+                  <div class="price__card">
+                    <div class="price__card__content">
+                      <h4>PLAN MEDIO</h4>
+                      <h3>$25.000</h3>
+                      <p>
+                        <i class="ri-checkbox-circle-line"></i>
+                        PRO Gyms
+                      </p>
+                      <p>
+                        <i class="ri-checkbox-circle-line"></i>
+                        Plan de entrenamiento inteligente
+                      </p>
+                      <p>
+                        <i class="ri-checkbox-circle-line"></i>
+                        Entrenamientos en casa
+                      </p>
+                    </div>
+                    <button class="btn price__btn">Comenzar</button>
+                  </div>
+
+                  <div class="price__card">
+                    <div class="price__card__content">
+                      <h4>PLAN FULL</h4>
+                      <h3>$30.000</h3>
+                      <p>
+                        <i class="ri-checkbox-circle-line"></i>
+                        Gimnasios y clases ELITE
+                      </p>
+                      <p>
+                        <i class="ri-checkbox-circle-line"></i>
+                        Gimnasios PRO
+                      </p>
+                      <p>
+                        <i class="ri-checkbox-circle-line"></i>
+                        Plan de entrenamiento inteligente
+                      </p>
+                      <p>
+                        <i class="ri-checkbox-circle-line"></i>
+                        entrenamientos en casa
+                      </p>
+                      <p>
+                        <i class="ri-checkbox-circle-line"></i>
+                        Personal Training
+                      </p>
+                    </div>
+                    <button class="btn price__btn">Comenzar</button>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- -------------------------- TESTIMONIOS ------------------------- -->
+    <section class="review">
+        <div class="section__container review__container">
+            <span><i class="ri-double-quotes-r"></i></span>
+            <div class="review__content">
+                <h4>Reseña de Cliente</h4>
+                <p>
+                    Lo que realmente distingue a este gimnasio es su equipo experto de entrenadores. El
+                    Los formadores están bien informados, son accesibles y están genuinamente interesados en
+                    ayudar a los miembros a alcanzar sus objetivos de acondicionamiento físico. Se toman el tiempo para
+                    comprender las necesidades individuales y crear planes de entrenamiento personalizados,
+                    garantizando los máximos resultados y seguridad.
+                </p>
+                <div class="review__rating">
+                    <span><i class="ri-star-fill"></i></span>
+                    <span><i class="ri-star-fill"></i></span>
+                    <span><i class="ri-star-fill"></i></span>
+                    <span><i class="ri-star-fill"></i></span>
+                    <span><i class="ri-star-fill"></i></span>
+                </div>
+                <div class="review__footer">
+                    <div class="review__member">
+                        <img src="images/member.jpg" alt="member">
+                        <div class="review_member__details">
+                            <h4>Gustavo Cooper</h4>
+                            <p>26 años - Cambio físico de 6 meses</p>
+                        </div>
+                    </div>
+                    <div class="review__nav">
+                        <span><i class="ri-arrow-left-line"></i></span>
+                        <span><i class="ri-arrow-right-line"></i></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ----------------------- FOOTER ---------------------------- -->
+    <footer class="section__container footer__container">
+        <span class="bg__blur"></span>
+        <span class="bg__blur footer__blur"></span>
+        <div class="footer__col">
+            <div class="footer__logo"><img src="images/logo nuevo.png" alt="logo"></div>
+            <p>
+                Dé el primer paso hacia una persona más sana y fuerte con nuestro
+            planes de precios inmejorables. ¡Sudamos, logremos y conquistemos juntos!
+            </p>
+            <div class="footer__socials">
+                <a href="#"><i class="ri-whatsapp-line"></i></a>
+                <a href="#"><i class="ri-instagram-line"></i></a>
+                <a href="#"><i class="ri-facebook-circle-line"></i></a>
+            </div>
+        </div>
+        <div class="footer__col">
+            <h4>Nuestros Servicios</h4>
+            <a href="#">Entrenamientos</a>
+            <a href="#">Planes</a>
+            <a href="#">Sobre Mi</a>
+            <a href="#">Alumnos</a>
+        </div>
+       
+    </footer>
+    <div class="footer__bar">
+        Copyright © 2023 OctaWebDesigns. Todos los Derechos Reservados.
+    </div>
 </body>
 </html>
